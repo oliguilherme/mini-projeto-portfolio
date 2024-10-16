@@ -12,7 +12,7 @@ body {
     width: 100%;
     height: 60vh;
     background-color: #0d394b;
-    color: white;
+    color: #d3c6b5;
     display: flex;
     align-items: center;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .sec2-img {
-    background-color: #f5e0c3;
+    background-color: #f5e0c3c9; 
     width: 50%;
     display: flex;
     justify-content: center;
@@ -69,6 +69,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: justify;
+    color: #4b3c30;
 }
 
 .sec2-text h1 {
@@ -80,5 +82,55 @@ body {
     font-size: 1.2rem;
     line-height: 1.5rem;
     width: 70%;
+    
+}
+
+.sec3 {
+    width: 100%;
+    height: 60vh;
+    background-color: #0d394b;
+    color: #d3c6b5;
+    display: flex;
+    align-items: center;
+}
+
+
+.formacao {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.formacao-text {
+    height: 50%;
+    width: 70%;
+    background-color: aqua;
+}
+
+.formacao-text h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.formacao-list {
+    width: 70%;
+    height: 50%;
+    background-color: orangered;
+
+}
+
+.habilidade {
+    width: 50%;
+    background-color: pink;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     
 }
