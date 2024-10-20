@@ -221,14 +221,16 @@ body {
 
 .sec4-card {
   display: flex;
+  flex-direction: row;
   width: 100%;
+  height: 300px;
   justify-content: space-around;
+  align-items: center;
 }
 
 .card {
   width: 28%;
   background-color: #1b4a58;
-  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   color: #f4f4f4;
@@ -243,7 +245,16 @@ body {
   padding: 15px 0;
 }
 
-.card p {
+.card a {
   padding: 10px;
   font-size: 1rem;
+  color: #f4f4f4; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 5px; /* Arredondar os cantos */
+  transition: color 0.3s; /* Efeito de transição */
+}
+
+.card a:hover {
+  color: #ffffff; /* Cor do texto ao passar o mouse */
+  text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse, se desejado */
 }
