@@ -25,6 +25,7 @@ body {
 
 .sec1-img img {
   width: 40%;
+  height: auto;
 }
 
 .sec1-text {
@@ -67,6 +68,7 @@ body {
 
 .sec2-img img {
   width: 45%;
+  height: auto;
 }
 
 .sec2-text {
